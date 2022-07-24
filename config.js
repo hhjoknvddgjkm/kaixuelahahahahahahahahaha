@@ -3,6 +3,7 @@ var config = {
     // 每句话尽量不要超过15个字,不然展示效果可能不太好
     texts: [
         "妈妈生日快乐"
+        
     ],
     /**
      * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
@@ -15,11 +16,11 @@ var config = {
      */
     imgs: {
         //"校  园  霸  凌": "./imgs/1.jpg",
-        // "今天是你的生日": "./imgs/birthday.jpg",
+         "今天是你的生日": "./imgs/birthday.jpg",
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
-        turn_on: "Happy birthday",
+        turn_on: "生日快乐",
         play: "来点bgm",
         bannar_coming: "随便找个图片衬托一下氛围~",
         balloons_flying: "好像少点东西",
